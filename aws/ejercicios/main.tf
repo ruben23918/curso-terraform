@@ -1,4 +1,4 @@
 provider "aws" {
-    #Region principal Europa Paris
+    #Region principal Europa Paris x2
     region = "eu-west-3"
 }
