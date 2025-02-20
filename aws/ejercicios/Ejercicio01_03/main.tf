@@ -78,7 +78,7 @@ resource "aws_instance" "web" {
   )
   key_name = aws_key_pair.deployer-key.key_name
   tags = {
-    name = "${var.project_name}-web-instance"
+    Name = "${var.project_name}-web-instance"
   }
 }
 
